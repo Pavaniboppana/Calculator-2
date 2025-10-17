@@ -22,7 +22,7 @@
     padding: 20px;
     border-radius: 16px;
     background: transparent;
-    box-shadow: 0px 3px 15px rgba(113,115,119);
+    box-shadow: 0px 3px 15px rgba(113,115,119, 0.5);
 } 
 
 input{
@@ -56,9 +56,19 @@ button {
     box-shadow: -8px -8px 15px rgba(255,255,255,0.1);
     cursor: pointer;
 } 
+
+button:hover {
+    background-color: #333333;
+}
+
 .equalBtn{
     background-color: #fb7c14;
 }
+
+.equalBtn:hover {
+    background-color: #ff8c14;
+}
+
 
 .button-operator {
    color: #6dee0a;
